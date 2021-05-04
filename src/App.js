@@ -40,6 +40,7 @@ setTodos(
       setTodoInput("");
   }
   return (
+ 
     <div className="App">
       <h1>Tasks 🔥</h1>
       <form>
@@ -72,7 +73,9 @@ setTodos(
         }
 
     </div>
+  
   );
+
 }
 
 export default App;
